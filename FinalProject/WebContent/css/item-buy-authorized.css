@@ -1,0 +1,52 @@
+<style>
+	
+	.item-block{
+	
+	}
+	
+	.item-block-navigation{
+		margin:60px 0 60px;
+	}
+	
+	.item-title{
+		font-weight:bold;
+		font-size:22px;
+		text-transform:uppercase;
+		color:#ff66ff;
+	}
+	
+	.name{
+		font-weight:bold;
+		font-size:20px;
+		text-transform:uppercase;
+		background-color:#ffccff;	
+	}
+	
+	.description{
+		font-size:16px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.price{
+		font-weight:bold;
+		font-size:16px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.amount{
+		font-weight:bold;
+		font-size:14px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+
+	.payment-title{
+		font-weight:bold;
+		font-size:22px;
+		text-transform:uppercase;
+		color:#66ffb3;
+	}
+</style>

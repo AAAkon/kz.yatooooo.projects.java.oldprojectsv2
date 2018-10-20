@@ -1,0 +1,259 @@
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+body
+{
+    font-family: 'Lato', 'sans-serif';
+}
+
+#OtherCategory{
+	display:none;
+}
+
+#OtherCategory2{
+	display:none;
+}
+
+#AddHandmakeFormToggle{
+	width:100%;
+	background-color:#99ff99;
+	border-radius:0px;
+	overflow:hidden;
+	padding:20px 0;
+}
+
+#AddHandmakeForm{
+	display:none;
+}
+
+#item-title{
+	text-align:center;
+	text-transform:Uppercase;
+	font-weight:bold;
+	color:#666666;
+}
+
+#item-image{
+	display: block;
+	width:100%;
+    padding:0;
+	color: #333333;
+	background-color:#99ff99;
+	font-size:22px;
+    border-radius:0px;
+}
+
+#avatar{
+	margin:0 5%;
+}
+
+.profile-info{
+	color: #339966;
+}
+
+.isright{
+	background-color: #00ff80;
+}
+
+.isdeleted{
+	background-color:#ff704d;
+}
+
+.isadmin{
+	background-color:#ff80bf;
+}
+
+.profile 
+{
+	margin-top:50px;
+    min-height: 355px;
+    display: inline-block;
+    }
+figcaption.ratings
+{
+    margin-top:20px;
+    }
+figcaption.ratings a
+{
+    color:#f1c40f;
+    font-size:11px;
+    }
+figcaption.ratings a:hover
+{
+    color:#f39c12;
+    text-decoration:none;
+    }
+.divider 
+{
+    border-top:1px solid rgba(0,0,0,0.1);
+    }
+.emphasis 
+{
+    border-top: 4px solid transparent;
+    }
+.emphasis:hover 
+{
+    border-top: 4px solid #1abc9c;
+    }
+.emphasis h2
+{
+    margin-bottom:0;
+    }
+span.tags 
+{
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    padding: 2px 4px;
+    }
+.dropdown-menu 
+{
+    background-color: #34495e;    
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 250px;
+    margin-left: -125px;
+    left: 50%;
+    }
+.dropdown-menu .divider 
+{
+    background:none;    
+    }
+.dropdown-menu>li>a
+{
+    color:#f5f5f5;
+    }
+.dropup .dropdown-menu 
+{
+    margin-bottom:10px;
+    }
+.dropup .dropdown-menu:before 
+{
+    content: "";
+    border-top: 10px solid #34495e;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 10;
+}
+
+
+	.item-block{
+		position:relative;
+		border: 2px solid black;
+		margin:20px 0 30px 0;
+	}
+	
+	.handmakersworks{
+		font-size:24px;
+		text-transform:uppercase;
+		margin-top:60px;
+	}
+	
+	.item-block-image{
+		padding:10px;
+	}
+	
+	.item-block-image img{
+		width:100%;
+		height:auto;
+	}
+	
+	
+	.item-title{
+		font-weight:bold;
+		font-size:22px;
+		text-transform:uppercase;
+		color:#ff66ff;
+	}
+	
+	.name{
+		font-weight:bold;
+		font-size:20px;
+		text-transform:uppercase;
+		background-color:#ffccff;	
+	}
+	
+	.description{
+		font-size:16px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.date{
+		font-style:italic;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.price{
+		font-weight:bold;
+		font-size:16px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.amount{
+		font-weight:bold;
+		font-size:14px;
+		text-transform:uppercase;
+		background-color:#ffccff;
+	}
+	
+	.edit{
+		position:absolute;
+		bottom:0px;
+		right:70px;
+	}
+	
+	.edit .mybtn{
+		padding: 10px 10px;
+		background:#ffb366;
+		color:white;
+		font-weight:bold;
+		border-radius:0px 0px;
+	}
+	
+	.delete{
+		position:absolute;
+		bottom:0px;
+		right:0px;
+	}
+	
+	.delete #button{
+		padding: 10px 10px;
+		background:red;
+		color:white;
+		font-weight:bold;
+		border-radius:0px 0px;
+	}
+	
+	
+	.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+	
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+</style>

@@ -1,0 +1,18 @@
+<style>
+
+.users-container{
+	border-left:30px solid #b3ffb3;
+	background-color:#ccffcc;
+	height:200px;
+	margin:20px 0px;
+}
+
+.users-container img{
+	padding:10px 0;
+	height:120px;
+}
+
+.users-container .btn-group{
+	margin-top:10px;
+}
+</style>

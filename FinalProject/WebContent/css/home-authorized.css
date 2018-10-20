@@ -1,0 +1,93 @@
+<style>
+	#basket-block{
+		width:110px;
+		height:50px;
+		position: fixed;
+		top:100px;
+		left:25px;
+	}
+	
+	#basket-block img{
+		position:absolute;
+		left:0;
+		top:0;
+		width:50px;
+		height:50px;
+	}
+	
+	#basket-block span#title{
+		position:absolute;
+		right:0;
+		top:25px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	
+	#basket-block span#count{
+		position:absolute;
+		left:30px;
+		top:-1px;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	
+	#items-container{
+		margin-top:30px;
+	}
+	
+	.item-block{
+		text-decoration:none;
+		display:block;
+		color:black;
+		cursor:pointer;
+		
+		position:relative;
+		box-shadow: 1px 1px 3px grey;
+		height:300px;
+		margin-top:10px;
+		overflow:hidden;
+	}
+	
+	.item-block:hover{
+		box-shadow: 1px 1px 3px green;
+	}
+	
+	.item-block img{
+		width:100%;
+		height:auto;
+		margin: auto;
+  		position: absolute;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+	}
+	
+	.item-block-text{
+		position:absolute;
+		top:10px;
+		left:10px;		
+	}
+	
+	.item-block-text-name{
+		font-weight:bold;
+		font-size:16px;
+		text-transform:uppercase;
+	}
+	
+	.item-block-text-handmaker{
+		position:absolute;
+		top:10px;
+		right:10px;
+		font-weight:bold;
+		font-size:16px;
+		text-transform:uppercase;
+		color:#ffb366;
+	}
+	
+	#item-form{
+		visibility:hidden;
+	}
+	
+
+</style>

@@ -1,0 +1,12 @@
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+	height:auto;
+}
+
+.main-sidebar, .main-header .logo {
+	
+	width:250px;
+}
+
+.content-wrapper, .right-side, .main-footer {
+	margin-left: 250px;
+}
